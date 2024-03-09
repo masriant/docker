@@ -1,1 +1,8 @@
 /Perintah
+# .env
+# .gitignore
+# .dockerignore
+# package-lock.json
+# package.json
+# README.md
+# LICENSE
