@@ -31,3 +31,13 @@ docker container logs command
 # LABEL INSTRUCTION
 docker build -t mazri3/label label
 docker image inspect mazri3/label
+
+# ADD Instruction
+docker build -t mazri3/add add
+docker container create --name add mazri3/add
+docker container start add
+docker container ls
+docker container ls -a | grep add
+docker container logs add
+
+docker image inspect mazri3/add
